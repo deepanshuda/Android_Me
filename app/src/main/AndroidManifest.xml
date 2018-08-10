@@ -12,6 +12,12 @@
         <!-- TODO (5) Declare the MainActivity in the manifest and set it to launch upon opening this app -->
 
         <activity android:name=".ui.AndroidMeActivity">
+
+        </activity>
+        <activity
+            android:name=".ui.MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
